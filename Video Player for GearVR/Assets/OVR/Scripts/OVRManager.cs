@@ -19,9 +19,9 @@ limitations under the License.
 
 ************************************************************************************/
 
-#if !UNITY_5 || UNITY_5_0
-#error Oculus Utilities require Unity 5.1 or higher.
-#endif
+//#if !UNITY_5 || UNITY_5_0
+//#error Oculus Utilities require Unity 5.1 or higher.
+//#endif
 
 using System;
 using System.Collections;

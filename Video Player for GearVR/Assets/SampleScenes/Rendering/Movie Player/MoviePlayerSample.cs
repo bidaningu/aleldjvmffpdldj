@@ -193,7 +193,7 @@ public class MoviePlayerSample : MonoBehaviour
 			Debug.LogError("wwwReader error: " + wwwReader.error);
 		}
 
-		movieTexture = wwwReader.movie;
+		movieTexture = wwwReader.GetMovieTexture();
 		mediaRenderer.material.mainTexture = movieTexture;
 		audioEmitter.clip = movieTexture.audioClip;
 		mediaFullPath = streamingMediaPath;
